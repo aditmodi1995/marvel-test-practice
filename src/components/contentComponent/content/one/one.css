@@ -1,0 +1,38 @@
+/* .tab-one{
+    padding: 10%;
+} */
+
+.tab-one > .one-one{
+    display: block;
+    /* height: 200px; */
+    width: 100%;
+    background-color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 7%;
+}
+.tab-one > .one-one > img{
+    width: 100%;
+    /* align-self: center;
+    margin-left: 10%;; */
+}
+.tab-one > .one-two{
+    display: block;
+    margin-top: 3%;
+    /* height: 100px; */
+    width: 100%;
+    background-color: white;
+    padding: 3%;
+}
+.heading{
+    font-size: 70%;
+}
+.number{
+    display: inline-block;
+    margin-right: 10px;
+}
+.below-image{
+    font-size: 70%;
+    padding: 5%;
+    color: rgb(152, 152, 152)
+}

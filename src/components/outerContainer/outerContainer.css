@@ -1,0 +1,13 @@
+.outerContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-image: url('/images/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-position-y: 44%;
+    background-position-x: 52%;
+    background-size: 68%; 
+}

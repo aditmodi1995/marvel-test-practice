@@ -1,0 +1,34 @@
+.quartile{
+    position: relative;
+    font-size: 50%;
+    height: 5%;
+    width: 100%;
+    /* background-color: rgb(244); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(234, 238, 239);
+}
+.quartile-kid{
+    text-align: center;
+    display: inline;
+}
+.quartile-kid > div {
+    height: 7px;
+    width: 7px;
+    /* background-color: blue; */
+    border-radius: 2px;
+}
+
+.quartile-kid > .one{
+    background-color: rgb(12, 61, 81);
+}
+.quartile-kid > .two{
+    background-color: rgb(32, 103, 124);
+}
+.quartile-kid > .three{
+    background-color: rgb(112, 164, 179);
+}
+.quartile-kid > .four{
+    background-color: rgb(182, 197, 202);
+}

@@ -1,0 +1,14 @@
+.tabind{
+    /* height: 4px; */
+    /* background-color: orange; */
+    margin-top: 4%;
+    /* width: 94%; */
+}
+.tabind > div > div {
+    width: 50% !important;
+}
+.one > div, .two > div, .three > div{
+    height: 2px;
+    width: 80%;
+    background-color: orange;    
+}

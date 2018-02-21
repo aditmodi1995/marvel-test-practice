@@ -1,0 +1,96 @@
+.header-bar{
+    background-color: rgb(12, 60, 81);
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.header-attr{
+    display: inline-block;
+    border-right: 1px solid rgb(28,73,93);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.brand-container, .download, .filter{
+    /* background: red; */
+    width: 25%;
+    /* height: 100%; */
+    /* width: 20%; */
+    /* padding: 10%; */
+}
+.filter{
+    border-right-width: 0px !important;
+}
+.brand{
+    display: inline-block;
+    font-size: 60%;
+    color: white;
+    margin: 2px;
+}
+#logo{
+    width:60%;
+}
+
+.date-dropdown{
+    /* width: 60%; */
+}
+
+.date-dropdown > button{
+    background: transparent !important;
+    color: white;
+    font-size: 70%;
+}
+
+.filter{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(12, 60, 81);
+    color: white;
+    /* padding: 5%; */
+}
+.filter > .headItems > button {
+    background: transparent;
+    color: white;
+}
+.filter > .headItems{
+    border-bottom: 1px solid rgb(61, 78, 85);
+    padding: 5%;
+}
+.filter > .headItems> .head{
+    display: inline-block;
+}
+.filter-one{
+    padding: 5%;
+    font-size: 70%;
+}
+.filter-one > .btn-group > button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(61, 78, 85);
+    /* width: 100px; */
+    font-size: 90%;
+}
+.filter-one > .btn-group > .asd{
+    display: block;
+    width: 200px;
+    text-align: left;
+}
+.filter-one > .btn-group > .dropdown-toggle{
+    background-color: black;
+    opacity: 0.1;
+    /* float: right; */
+}
+.filter-footer{
+    /* width: 200px; */
+    text-align: center;
+    /* font-size: 50%; */
+}
+.filter-footer > button {
+    font-size: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+    margin-right: 5%;
+}

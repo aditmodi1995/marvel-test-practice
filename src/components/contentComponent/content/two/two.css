@@ -1,0 +1,53 @@
+.tab-two{
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+}
+.heading{
+    font-size: 80%;
+}
+.tab-two > .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-two > .row > .col > .dropdown > .btn{
+    font-size: 60%;
+    padding: 7%;
+    border: 1px solid rgb(184, 182, 182);
+}
+.progress-text > .oneline{
+    font-size: 75%;
+    margin-top: 15%;
+}
+.bar{
+    height: 5px;
+    width: 90%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    margin-top: 1%;
+}
+.bar > .bar-color{
+    height: 5px;
+    border-radius: 20px;
+}
+#one-color{
+    width: 95%;
+    background-color: rgb(12, 61, 81);
+}
+#two-color{
+    width: 90%;
+    background-color: rgb(12, 61, 81);
+}
+#three-color{
+    width: 85%;
+    background-color: rgb(32, 103, 124);
+}
+#four-color{
+    width: 85%;
+    background-color: rgb(32, 103, 124);    
+}
+#five-color{
+    width: 82%;
+    background-color: rgb(32, 103, 124);    
+}

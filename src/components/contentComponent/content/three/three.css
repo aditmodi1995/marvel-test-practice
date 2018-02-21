@@ -1,0 +1,100 @@
+.tab-three{
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+    overflow-y: hidden;
+}
+.heading{
+    font-size: 80%;
+}
+.tab-three > .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-three > .row > .col > .dropdown > .btn{
+    font-size: 60%;
+    padding: 7%;
+    border: 1px solid rgb(184, 182, 182);
+}
+.tab-three > .table{
+    /* display: block; */
+    /* border-radius: 10px; */
+    background-color: rgb(244, 248, 249);
+    margin-top: 5%;
+}
+.tab-three > .table > tbody > tr {
+    text-align: center;
+}
+.tab-three > .table > thead > tr > th {
+    font-size: 50%;
+}
+.oneline{
+    font-size: 70%;
+    color: black;
+}
+.each-item{
+    width: 100%;
+}
+.bar{
+    height: 5px;
+    width: 70%;
+    background-color: rgb(221, 224, 226);
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 13%;
+}
+.collapse-bar{
+    height: 5px;
+    width: 70%;
+    background-color: rgb(221, 224, 226);
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+.bar-color{
+    height: 5px;
+    border-radius: 20px;
+}
+#color-one{
+    width: 95%;
+    background-color: rgb(12, 61, 81);
+}
+#color-two{
+    width: 70%;
+    background-color: rgb(32, 103, 124);
+}
+#color-three{
+    width: 73%;
+    background-color: rgb(32, 103, 124);    
+}
+#color-four{
+    width: 20%;
+    background-color: rgb(182, 197, 202);
+}
+#color-five{
+    width: 65%;
+    background-color: rgb(112, 164, 179);
+}
+#color-six{
+    width: 25%;
+    background-color: rgb(182, 197, 202);    
+}
+.collapseContent{
+    font-size: 70%;
+}
+.collapse > .card > .row {
+    margin-top: 10%;
+}
+#collapse-one{
+    width: 90%;
+    background-color: rgb(12, 61, 81);    
+}
+#collapse-two{
+    width: 80%;
+    background-color: rgb(12, 61, 81);    
+}
+#collapse-three{
+    width:45%;
+    background-color: rgb(182, 197, 202);        
+}
